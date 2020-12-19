@@ -109,6 +109,12 @@ df[in.(df.Age, Ref([20, 30, 40, 50, 60, 70, 80])), :]
 
 select(df, :Age, :Group) # Use select function to select columns (returns a dataframe object)
 
+filter(:Group => ==("Treatment"), df) # Use filter function to select specific rows
+ 
+filter(:Group => x -> x == "Treatment", df) # Alternative syntax
+
+filter(row -> row.Group == "Treatment", df) # Alternative syntax
+
 select(df[:, [:Age, :DeltaLDL]], AsTable(:) => ByRow(extrema) => [:lo, :hi])
 
 
