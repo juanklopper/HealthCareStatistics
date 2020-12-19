@@ -1,0 +1,14 @@
+name = "HealthCareStatistics"
+uuid = "c0460a50-edbc-44f8-b2a9-6b3c46bc3119"
+authors = ["juanklopper <juan.klopper@uct.ac.za>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+GLM = "38e38edf-8417-5370-95a0-9cbb8c7f171a"
+Pipe = "b98c9c47-44ae-5843-9183-064241ee97a0"
+Query = "1a8c2f83-1ff3-5112-b086-8aa67b057ba1"
+VegaDatasets = "0ae4a718-28b7-58ec-9efb-cded64d6d5b4"
+VegaLite = "112f6efa-9a02-5b7d-90c0-432ed331239a"
