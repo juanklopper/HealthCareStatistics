@@ -32,3 +32,5 @@ filter(row -> any(ismissing, row), df)
 # REMOVE ALL ROWS WITH MISSING DATA
 
 dfAllData = dropmissing(df) # Create a new dataframe object
+
+show(dfAllData, allrows = true)
