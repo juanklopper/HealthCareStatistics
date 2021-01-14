@@ -382,7 +382,7 @@ SubString("I love Julia.", 8, 12)
 "Hello" * "Julia"
 println("Hello", "Julia")
 "Hello " * "Julia"
-"Hello" * ' ' * "Julia"
+("Hello" * ' ') * "Julia" # Grouping concatenation if more than two
 
 # Repeats
 "Julia"^3
